@@ -1,4 +1,6 @@
-# %USERPROFILE%\Documents\WindowsPowerShell\profile.ps1
+# (~PowerShell 5.1) %USERPROFILE%\Documents\WindowsPowerShell\profile.ps1
+# (PowerShell 7) %USERPROFILE%\Documents\PowerShell\profile.ps1
+
 # If Get-ExecutionPolicy is 'AllSigned', sign this script before use (Set-AuthenticodeSignature)
 
 # Chocolatey profile
