@@ -17,3 +17,5 @@ Set-PSReadLineKeyHandler -key Ctrl+u -function BackwardKillLine  # Ctrl+u: delet
 Set-PSReadLineKeyHandler -key Ctrl+y -function Yank  # Ctrl+y: yank(paste) the most recently killed text
 
 . $PSScriptRoot\aliases.ps1  # Load aliases
+
+Set-PoshPrompt $PSScriptRoot\theme.json
